@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script>
+      
+
+      (function(){
+         //alert("aaYO");
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>Bookmarklet</h1>
+
+    <a href="javascript:(function(){
+      let raglandScript = document.createElement('script');
+      raglandScript.src = 'http://127.0.0.1:5500/bookmarklet.js';
+      document.body.appendChild(raglandScript);
+  })();">Daarag</a>
+  </body>
+</html>
